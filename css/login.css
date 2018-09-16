@@ -1,0 +1,107 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-15 21:32:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-17 14:29:17
+*/
+body{
+	background-image: url(../img/girl.png);
+	background-repeat: no-repeat;
+	background-position: center top; 
+	background-size: cover;	
+	background-color: rgba(0, 0, 0, 0.1);
+	position: relative;
+}
+.container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+.login{
+	width: 1.74rem;
+	height: 0.58rem;
+}
+.login img{
+	width: 1.74rem;
+	height: 0.58rem;
+	float: right;
+	margin-top: 0.24rem;
+}
+.center{
+	width: 5.26rem;
+	height: 3.36rem;
+	background: #fff;
+	margin: 5.75rem auto;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.06rem 0.06rem #bcc0c1;
+}
+.center .one{
+	width: 100%;
+	height: 1.12rem;
+	position: relative;
+}
+input::-webkit-input-placeholder{
+		color:gray;
+	    font-size:0.12rem;
+     }
+.center .one .username{
+	width: 1.17rem;
+	height: 0.17rem;
+	margin-top: 0.18rem;
+	margin-left: 0.26rem;
+	float: left;
+}
+.center .one .user{
+	width: 0.43rem;
+	height: 0.41rem;
+	margin-top: 0.4rem;
+	margin-left: -1.2rem;
+	float: left;
+}
+.center .one input{
+	width: 2.22rem;
+	border: none;
+	border-bottom: 0.02rem solid #e5e5e5;
+	position: absolute;
+	top: 0.48rem;
+	left: 0.72rem;
+}
+.center .one span{
+	font-size: 0.18rem;
+	float: left;
+	margin-top: 0.46rem;
+	margin-left: 1.5rem;
+}
+.center .one .fgx{
+	width: 4.56rem;
+	height: 0.06rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.28rem;
+}
+.center .one .yzm{
+	width: 1.42rem;
+	height: 0.48rem;
+	float: right;
+	margin-top: 0.38rem;
+	margin-right: 0.6rem;
+}
+.center .two{
+	width: 100%;
+	height: 1.12rem;
+}
+.center .three{
+	width: 100%;
+	height: 1.10rem;
+}
+
+.log{
+	width: 3.48rem;
+	height: 0.8rem;
+	position: absolute;
+	top: 10.38rem;
+	left: 2rem;
+}
+.log img{
+	width: 3.48rem;
+	height: 0.8rem;
+}

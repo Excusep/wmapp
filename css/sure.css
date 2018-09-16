@@ -1,0 +1,356 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-12 22:37:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-17 09:48:06
+*/
+/* 头部 */
+header{
+	width: 100%;
+	height: 2.3rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #0bcb93;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 20;
+}
+header .container{
+	width: 7.02rem;
+	height: 1.8rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .container .left{
+	width: 5.6rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+header .container .left .one{
+	width: 0.42rem;
+	height: 0.42rem;
+	display: flex;
+	justify-content: center;
+}
+header .container .left .one img{
+	width: 0.42rem;
+	height:0.42rem;
+}
+header .container .left .two{
+	width: 4.72rem;
+	height: 1.7rem;
+	display: flex;
+	justify-content: space-between;
+}
+header .container .left .two img{
+	width: 1.14rem;
+	height: 1.14rem;
+}
+header .container .left .two .text{
+	width: 3.36rem;
+	height: 1.6rem;
+	margin-top: -0.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+header .container .left .two .text .title{
+	width: 100%;
+	height: 0.36rem;
+	font-size: 0.28rem;
+	font-weight: bold;
+	color:#fff;
+	padding-bottom: 0.06rem;
+}
+header .container .left .two .text .center{
+	width: 100%;
+	height: 0.48rem;
+	font-size: 0.18rem;
+	font-weight: 200;
+	color: #bcebd9;
+	margin-bottom: 0.08rem;
+	margin-top: 0.08rem;
+}
+header .container .left .two .text .center img{
+	width: 0.8rem;
+	height: 0.14rem;
+}
+header .container .left .two .text .bot{
+	width: 100%;
+	height: 66rem;
+	font-size: 0.18rem;
+	font-weight: 200;
+	color:#bcebd9;
+	padding-bottom: 0.06rem;
+}
+header .container .left .two .text .bot .m{
+	margin-bottom: 0.04rem;
+}
+header .container .left .two .text .bot a{
+	width: 0.6rem;
+	height: 0.26rem;
+	font-size: 0.18rem;
+	border: 0.01rem solid #fff;
+	color: #b0b0b0;
+	border-radius: 0.14rem;
+	padding-left: 0.1rem;
+	line-height: 0.24rem;
+	display: block;
+	float: left;
+}
+header .container .left .two .text .bot span{
+	float: left;
+}
+header .container .right{
+	width: 0.42rem;
+	height: 0.42rem;
+	display: flex;
+	justify-content: center;
+}
+header .container .right img{
+	width: 0.42rem;
+	height:0.42rem;
+}
+
+
+
+/* 主体 */
+main{
+	width: 100%;
+	height: 9.5rem;
+	margin-bottom: 1.7rem;
+	overflow: scroll;
+	margin-top: 2.3rem;
+}
+main .lef{
+	width: 1.5rem;
+	height: 5.10rem;
+	float: left;
+	position: fixed;
+	left: 0;
+	top: 2.3rem;
+	background: #e0e0e0;
+}
+main .lef ul li:nth-child(3){
+	background: #08c890;
+}
+main .lef ul{
+	width: 100%;
+	height: 100%;
+	
+}
+main .lef ul li{
+	width: 100%;
+	height: 1.02rem;
+	font-size: 0.28rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main .food{
+	width: 5.54rem;
+	height: 1.56rem;
+	float: right;
+	margin-top: 0.32rem;
+	margin-right: 0.24rem;
+	box-shadow: 0 0.05rem 0.15rem #39e2b1;
+	/* display: flex;
+	flex-direction: row; */
+}
+main .food .pic{
+	width: 1.3rem;
+	height: 100%;
+	float: left;
+	float: right;
+	position: relative;
+}
+main .food .pic img{
+	position: absolute;
+	top: -0.12rem;
+	right: 0.1rem;
+	width: 0.25rem;
+	height: 0.25rem;
+}
+main .food .pic .a{
+	width: 0.74rem;
+	height: 0.3rem;
+}
+main .food .pic i{
+	font-size: 0.28rem;
+	position: absolute;
+	top: 0.82rem;
+	right: 0.58rem;
+	color: #ff7200;
+}
+main .food .pic span{
+	font-size: 0.14rem;
+	position: absolute;
+	top: 0.95rem;
+	right: 0.24rem;
+	color: #ff7200;
+}
+main .food .left{
+	width: 1.24rem;
+	height: 100%;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main .food .left img{
+	width: 0.88rem;
+	height: 1.24rem;
+}
+main .food .right{
+	width: 3rem;
+	height: 1.28rem;
+	margin-top: 0.16rem;
+	float: left;
+	display: flex;
+	flex-direction:column ;
+	justify-content: space-between;
+}
+main .food .right .one{
+	width: 100%;
+	height: 0.28rem;
+	display: flex;
+	flex-direction: row;
+}
+main .food .right .one span{
+	font-size: 0.26rem;
+	color: #000;
+}
+main .food .right .two{
+	width: 100%;
+	height: 0.18rem;
+	display: flex;
+	flex-direction: row;
+}
+main .food .right .two img{
+	width: 0.64rem;
+	height: 0.14rem;
+	margin-top: 0.04rem;
+} 
+main .food .right .two span{
+	font-size: 0.16rem;
+	margin-left: 0.14rem;
+	color: #b0b0b0;
+}
+main .food .right .three{
+	width: 100%;
+	height: 0.18rem;
+	display: flex;
+	flex-direction: row;
+}
+main .food .right .three span{
+	font-size: 0.16rem;
+	color: #b0b0b0;
+}
+main .food .right .four{
+	width: 100%;
+	height: 0.28rem;
+	display: flex;
+	flex-direction: row;
+}
+main .food .right .four a{
+	width: 0.6rem;
+	height: 0.26rem;
+	font-size: 0.18rem;
+	border: 0.01rem solid #08c890;
+	color: #b0b0b0;
+	border-radius: 0.14rem;
+	padding-left: 0.1rem;
+	line-height: 0.24rem;
+	display: block;
+}
+main .food .right .four span{
+	font-size: 0.18rem;
+	color: #b0b0b0;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 1.58rem;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer img{
+	width: 7rem;
+	height: 1.28rem;
+}
+
+/* 遮罩 */
+body{
+	position: relative;
+}
+.cover{
+	width: 100%;
+	height: 100rem;
+	background: rgba(217, 217, 217, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+/* 顶层 */
+.ttp{
+	width: 5.86rem;
+	height: 5.86rem;
+	background: #1ef8ba;
+	z-index: 100;
+	position: absolute;
+	top: 1rem;
+	left: 0.85rem;
+	background-image: url('../img/sure.png');
+	background-repeat: no-repeat;
+	background-size: 1.96rem 0.55rem;
+    background-position: 3.6rem 5rem;
+    border-radius: 0.3rem;
+}
+.ttp h4{
+	margin-top: -0.2rem;
+	font-size: 0.32rem;
+	color: #fff;
+	padding-left: 0.52rem;
+}
+.ttp h5{
+	font-size: 0.24rem;
+	color: #dcfdf1;
+	padding-left: 0.52rem;
+	padding-top: 0.18rem;
+}
+.ttp img{
+	width: 100%;
+	height: 3.32rem;
+	border-top-left-radius: 0.3rem;
+	border-top-right-radius: 0.3rem;
+}
+.ttp .add{
+	width: 1.22rem;
+	height: 0.44rem;
+	position: absolute;
+	margin-left: 0.52rem;
+	margin-top: 0.26rem;
+}
+.ttp h3{
+	font-size: 0.32rem;
+	color: #ff7200;
+	padding-top: 0.8rem;
+	padding-left: 0.52rem;
+	float: left;
+}
+.ttp span{
+	font-size: 0.16rem;
+	color: #ff7200;
+	float: left;
+	padding-top: 0.98rem;
+	padding-left: 0.04rem;
+}

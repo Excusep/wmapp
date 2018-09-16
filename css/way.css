@@ -1,0 +1,169 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-14 22:03:47
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-15 09:00:55
+*/
+header{
+	width: 100%;
+	height: 6.28rem;
+	background-color: #19CE9A;
+	position: relative;
+}
+.container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+header img{
+	width: 0.44rem;
+	height: 0.44rem;
+	position: absolute;
+	top: 0.18rem;
+	left: 0.24rem;
+}
+header h3{
+	font-size: 0.22rem;
+	float: left;
+	margin-top: 0.62rem;
+	color: #fff;
+}
+header h3 img{
+	width: 0.72rem;
+	height: 0.28rem;
+	float: left;
+	margin-top: 0.48rem;
+	margin-left: 1.2rem;
+}
+header h4{
+	font-size: 0.32rem;
+	color: #fff;
+	margin-top: 1rem;
+	margin-left: -1.1rem;
+	float: left;
+}
+header h5{
+	font-size: 0.22rem;
+	color: #fff;
+	margin-top: 1.46rem;
+	margin-left: -3.45rem;
+	float: left;
+}
+
+
+/* 选择 */
+header .selec{
+	width: 6.66rem;
+	height: 3.44rem;
+	background: #F7F7F7;
+	border-top-left-radius: 0.1rem;
+	border-top-right-radius: 0.1rem;
+	border-top: 0.2rem solid #ff6a00;
+	margin-top: -3.44rem;
+	position: absolute;
+	top: 6.28rem;
+	left: 0.42rem;
+}
+header .selec .three{
+	width: 3.04rem;
+	height: 0.54rem;
+	position: absolute;
+	top: 0.4rem;
+	left: 1.8rem;
+}
+header .selec .wx{
+	width: 2.76rem;
+	height: 1.16rem;
+	position: absolute;
+	top: 1.3rem;
+	left: 0.4rem;
+}
+header .selec .zfb{
+	width: 2.76rem;
+	height: 1.16rem;
+	position: absolute;
+	top: 1.3rem;
+	left: 3.5rem;
+}
+header .selec .ld{
+	width: 0.42rem;
+	height: 0.14rem;
+	position: absolute;
+	top: 2.6rem;
+	left: 3.1rem;
+}
+header .selec .jc{
+	width: 7.05rem;
+	height: 0.36rem;
+	position: absolute;
+	top: 2.89rem;
+	left: -0.17rem;
+}
+
+/* 其他支付 */
+.other{
+	width: 6.66rem;
+	height: 7rem;
+	margin-left: 0.42rem;
+	box-shadow: 0.01rem 0.02rem 0.04rem #bed6ce;
+	background: #F7F7F7;
+}
+.other .qtzf{
+	width: 2.89rem;
+	height: 0.49rem;
+	margin-left: 1.9rem;
+}
+.other .one{
+	width: 6.15rem;
+	height: 1.10rem;
+	margin: 0 auto;
+	border-radius: 0.08rem;
+	margin-bottom: 0.24rem;
+	box-shadow: 0 0.02rem 0.02rem #eaeaea;
+}
+.other .one .yhk{
+	width: 0.67rem;
+	height: 0.64rem;
+	float: left;
+	margin-top: 0.22rem;
+	margin-left: 0.12rem;
+	margin-right: 0.18rem;
+}
+.other .one .thr{
+	width: 0.34rem;
+	height: 0.34rem;
+	float: right;
+	margin-top: -0.1rem;
+	margin-right: 0.14rem;
+}
+.other .one .s{
+	width: 0.11rem;
+	height: 0.94rem;
+	float: right;
+	margin-top: -0.46rem;
+	margin-right: 0.14rem;
+}
+.other .one h3{
+	font-size: 0.24rem;
+	color: #747474;
+	float: left;
+	margin-top: 0.24rem;
+	margin-left: 0.12rem;
+}
+.other .one h4{
+	font-size: 0.22rem;
+	color: #b5b1b1;
+	float: left;
+}
+.other .qrzf{
+	width: 6.24rem;
+	height: 0.86rem;
+	margin: 0.5rem 0.24rem 0;
+}
+
+/* 确认支付 */
+.surepay{
+	width: 6.66rem;
+	height: 2.06rem;
+	margin-top: -1rem;
+	margin-left: 0.42rem;
+}

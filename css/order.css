@@ -1,0 +1,258 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-16 11:16:48
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-17 10:09:12
+*/
+header{
+	width: 100%;
+	height: 0.89rem;
+	background: #0dcd96;
+	position: fixed;
+}
+.container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+header .ser{
+	width:0.44rem ;
+	height: 0.45rem;
+	margin-top: 0.22rem;
+	float: right;
+}
+header .order{
+	width: 3.5rem;
+	height: 0.5rem;
+	margin-top: 0.18rem;
+	margin-left: 1.5rem;
+	float: left;
+}
+.nearby{
+	height: 5.7rem;
+	width: 100%;
+	padding-top:1.40rem;
+}
+.nearby h3{
+	font-size: 0.28rem;
+}
+.nearby h4{
+	font-size: 0.22rem;
+	padding-top: 0.24rem;
+}
+.nearby h5{
+	font-size: 0.18rem;
+	color: #ff6a00;
+}
+.nearby .dott{
+	width: 1.28rem;
+	height: 0.04rem;
+	position: absolute;
+	bottom: 1.10rem;
+	left: 0.56rem;
+}
+.nearby .shop{
+	width: 2.65rem;
+	height: 0.52rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+.nearby .box{
+	padding-top: 0.44rem;
+	height: 3.75rem;
+	padding-top: 0.24rem;
+	float: left;
+	overflow-x: scroll;
+	display: flex;
+	justify-content: space-between;
+}
+.nearby .one{
+	width: 2.47rem;
+	height: 3.51rem;
+	text-align: center;
+	padding-top: 1.9rem;
+	float: left;
+	margin-right: 0.24rem;
+	background-image: url('../img/px.png');
+	background-size: cover;
+	position: relative;
+}
+.nearby .two{
+	width: 2.47rem;
+	height: 3.51rem;
+	text-align: center;
+	padding-top: 1.9rem;
+	float: left;
+	margin-right: 0.24rem;
+	background-image: url('../img/zlx.png');
+	background-size: cover;
+	position: relative;
+}
+
+
+.nearby .three{
+	width: 2.47rem;
+	height: 3.51rem;
+	text-align: center;
+	padding-top: 1.9rem;
+	float: left;
+	background-image: url('../img/pzx.png');
+	background-size: cover;
+	position: relative;
+}
+
+
+/* 历史订单 */
+.his{
+	width: 100%;
+}
+.his .top{
+	width: 2.72rem;
+	height: 0.56rem;
+}
+.his .top img{
+	width: 2.7rem;
+	height: 0.56rem;
+}
+.his .bot{
+	width: 100%;
+}
+.his .bot .one{
+	width: 100%;
+	height: 1.34rem;
+	margin-top: 0.62rem;
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	box-shadow: 0 0.1rem 0.1rem #fff0a9;
+	position: relative;
+}
+.his .bot .one:nth-child(2){
+	margin-top: 0.32rem;
+}
+.his .bot .one:nth-child(3){
+	margin-top: 0.32rem;
+}
+.his .bot .one .xxx{
+	width: 1.45rem;
+	height: 1.32rem;
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+	float: left;
+}
+.his .bot .one span{
+	font-size: 0.28rem;
+	float: left;
+	margin-left: 0.24rem;
+	margin-top:0.18rem;
+}
+.his .bot .one h4{
+	font-size: 0.22rem;
+	float: left;
+	margin-left: -0.84rem;
+	margin-top:0.56rem;
+}
+.his .bot .one .th{
+	margin-left: -1.1rem;
+}
+.his .bot .one .thr{
+	margin-left: -1.80rem;
+}
+.his .bot .one h5{
+	font-size: 0.14rem;
+	float: left;
+	margin-left: -1.36rem;
+	margin-top:0.8rem;
+}
+.his .bot .one .pj{
+	width: 1.64rem;
+	height: 0.59rem;
+	position: absolute;
+	top: 0.08rem;
+	right: 0.8rem;
+}
+.his .bot .one .zlyd{
+	width: 1.64rem;
+	height: 0.59rem;
+	position: absolute;
+	bottom: 0.08rem;
+	right: 0.8rem;
+}
+footer{
+	width: 100%;
+	height: 1.1rem;
+	font-size: 0.18rem;
+	color: #000;
+	box-shadow: 0 -0.1rem 0.1rem #fff0a9;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-weight: 200;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+}
+footer .container{
+	width: 6.58rem;
+	height: 0.88rem;
+	margin-top: 0.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer .container .home{
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+}
+footer .container .find{
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+}
+footer .container .order{
+	width: 2rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+}
+footer .container .order img{
+	width: 0.3rem;
+	height: 0.38rem;
+	margin-left: 0.04rem;
+}
+footer .container .home img{
+	width: 0.44rem;
+	height: 0.40rem;
+	margin-left: 0.02rem;
+}
+footer .container .find img{
+	width: 0.42rem;
+	height: 0.34rem;
+	margin-left: 0.02rem;
+}
+footer .container .my img{
+	width: 0.4rem;
+	height: 0.38rem;
+	margin-left: 0.04rem;
+}
+footer .container .my{
+	width: 0.5rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+}
+footer .home .hom{
+	margin-top: 0.2rem;
+}
+footer .my .m{
+	margin-top: 0.2rem;
+}

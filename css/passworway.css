@@ -1,0 +1,135 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-15 11:36:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-15 18:42:02
+*/
+header{
+	width: 100%;
+	height: 0.89rem;
+	margin-bottom: 1.34rem;
+	background: #0dcd96;
+}
+.container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+header .lfh{
+	width:0.44rem ;
+	height: 0.45rem;
+	margin-top: 0.22rem;
+	float: left;
+}
+header .mzf{
+	width: 3.5rem;
+	height: 0.5rem;
+	margin-top: 0.18rem;
+	margin-left: 1.36rem;
+	float: left;
+}
+
+/* 中间 */
+.center{
+	width: 6.14rem;
+	height: 4.76rem;
+	margin: 0 auto;
+	border-radius: 0.1rem;
+	box-shadow: 0 0.1rem 0.1rem #dfdfdf;
+	margin-bottom: 2.08rem;
+}
+.center .one{
+	width: 6.14rem;
+	height: 1.14rem;
+	border-top-left-radius: 0.1rem;
+	border-top-right-radius: 0.1rem;
+	background: #0dcd96;
+	position: relative;
+}
+.center .one .jd{
+	width: 5.75rem;
+	height: 0.1rem;
+	position: absolute;
+	top: -0.34rem;
+	left: -0.02rem;
+}
+.center .one img{
+	width: 0.51rem;
+	height: 0.55rem;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.2rem;
+	margin-right: 0.32rem;
+}
+.center .one h4{
+	font-size: 0.24rem;
+	color: #fff;
+	padding-top: 0.28rem;
+	float: left;
+}
+.center .one h5{
+	font-size: 0.24rem;
+	color: #fff;
+	padding-top: 0.6rem;
+	margin-left: -1.42rem;
+	float: left;
+}
+.center .two{
+	width: 6.14rem;
+	height: 2.72rem;
+	position: relative;
+}
+.center .two h4{
+	font-size: 0.44rem;
+	font-weight: bold;
+	position: absolute;
+	top: 1.2rem;
+	left: 1.26rem;
+	color: #ff6a00;
+}
+.center .two span{
+	font-size: 0.7rem;
+	font-weight: bold;
+	position: absolute;
+	top: 0.94rem;
+	left: 2.4rem;
+	color: #ff6a00;
+}
+.center .two h6{
+	font-size: 0.24rem;
+	font-weight: bold;
+	position: absolute;
+	top: 1.7rem;
+	left: 1.9rem;
+	color: #ff6a00;
+}
+.center .two .jd{
+	width: 5.75rem;
+	height: 0.1rem;
+	position: absolute;
+	top: 2.4rem;
+	left: 0.2rem;
+}
+.center .three{
+	width: 6.14rem;
+	height: 0.9rem;
+}
+.center .three ul li{
+	width: 0.42rem;
+	height: 0.5rem;
+	float: left;
+	margin-right:0.18rem ;
+	border-bottom: 0.05rem solid #dadada;
+}
+.center .three ul li:nth-child(1){
+	margin-left: 1.3rem;
+}
+.center .three ul li h4{
+	font-size: 0.24rem;
+	text-align: center;
+	padding-top: 0.1rem;
+}
+/* 键盘 */
+.keyboard img{
+	width: 7.5rem;
+	height: 4.3rem;
+}

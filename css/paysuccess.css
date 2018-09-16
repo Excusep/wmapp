@@ -1,0 +1,138 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-15 18:59:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-15 21:26:16
+*/
+header{
+	width: 100%;
+	height: 0.89rem;
+	margin-bottom: 0.24rem;
+	background: #0dcd96;
+}
+.container{
+	width: 7.02rem;
+	margin: 0 auto;
+}
+header .lfh{
+	width:0.44rem ;
+	height: 0.45rem;
+	margin-top: 0.22rem;
+	float: left;
+}
+header .zfcg{
+	width: 3.5rem;
+	height: 0.5rem;
+	margin-top: 0.18rem;
+	margin-left: 1.36rem;
+	float: left;
+}
+/* 接单 */
+.clerk{
+	width: 7.02rem;
+	height: 2.78rem;
+	margin: 0 auto 1rem;
+	box-shadow: 0 0.06rem 0.06rem #adeedc;
+}
+.clerk .pic img{
+	width: 2.1rem;
+	height: 2.26rem;
+	margin: 0.24rem 0.3rem;
+	float: left;
+	border-radius: 0.16rem;
+}
+.clerk .text{
+	width: 2.1rem;
+	height: 0.86rem;
+	float: left;
+	margin: 1.06rem 0.26rem;
+}
+.clerk .text h3{
+	font-size: 0.24rem;
+	color: #ff6a00;
+	float: left;
+	border: 0.02rem solid #fed6b9;
+}
+.clerk .text h4{
+	font-size: 0.32rem;
+	color: #ff6a00;
+	float: left;
+}
+.clerk .text h5{
+	font-size: 0.18rem;
+	color: #ff6a00;
+	margin-top: 0.12rem;
+	float: left;
+}
+.clerk .text h6{
+	font-size: 0.32rem;
+	color: #ff6a00;
+	float: left;
+}
+/* 中间 */
+.center{
+	width: 100%;
+	height: 1.74rem;
+	margin-bottom: 0.54rem;
+	position: relative;
+}
+.center .one{
+	width: 4.04rem;
+	height: 0.46rem;
+	position: absolute;
+	top: 0;
+	left: 1.65rem;
+}
+.center .two{
+	width: 2.48rem;
+	height: 0.72rem;
+	position: absolute;
+	top: 1rem;
+	left: 0.86rem;
+}
+.center .three{
+	width: 2.48rem;
+	height: 0.72rem;
+	position: absolute;
+	top: 1rem;
+	right: 0.86rem;
+}
+/* 底部 */
+.bot{
+	width: 100%;
+}
+.bot .top img{
+	width: 2.53rem;
+	height: 0.44rem;
+}
+.bot ul li{
+	width: 3.2rem;
+	height: 3.6rem;
+	box-shadow: 0 0.1rem 0.1rem #adeedc;
+	float: left;
+	margin-right: 0.50rem;
+	margin-bottom: 0.24rem;
+}
+.bot ul li:nth-child(2n){
+	margin-right: 0;
+}
+.bot ul li .dzx{
+	width: 3.19rem;
+	height: 2.2rem;
+}
+.bot ul li h3{
+	font-size: 0.34rem;
+	line-height: 0.06rem;
+	text-align: center;
+}
+.bot ul li h4{
+	font-size: 0.18rem;
+	line-height: 0.7rem;
+	text-align: center;
+}
+.bot ul li .RMB{
+	width: 1.43rem;
+	height: 0.29rem;
+	float: left;
+	margin-left:0.9rem;
+}
