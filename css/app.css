@@ -1,9 +1,4 @@
-/*
-* @Author: Administrator
-* @Date:   2018-08-08 14:11:00
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-08-17 14:31:00
-*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -16,6 +11,8 @@ a{
 i{
 	font-style: normal;
 }
+
+
 
 /* 头部开始 */
 header{
@@ -49,6 +46,7 @@ header .search{
 header  .container .right{
 	width: 0.3rem;
 	height: 0.3rem;
+	line-height: 0.3rem;
 }
 header .search .left{
 	font-size: 0.28rem;
@@ -74,7 +72,7 @@ header .search::-webkit-input-placeholder{
 }
 
 nav{
-	width: 7.50rem;
+	width: 100%;
 	height: 4.00rem;
 	position: relative;
 }
@@ -91,17 +89,19 @@ nav .dot{
 	z-index: 10;
 }
 .list{
-	width: 6.68rem;
+	width: 100%;
 	height: 3.28rem;
 	margin-top: 0.4rem;
-	margin-left: 0.42rem;
+    padding-left:0.24rem;
+    padding-right:0.24rem;
+	/*margin-left: 0.42rem;*/
 
 }
 .list ul{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .list ul li{
 	width: 1.29rem;
@@ -131,25 +131,27 @@ nav .dot{
 	height: 1.12rem;
 }
 .recommend{
-	width: 7.02rem;
+	width: 100%;
 	height: 2rem;
 	margin-top: 0.32rem;
-	margin-left: 0.24rem;
+    padding-left:0.24rem;
+    padding-right:0.24rem;
+	/*margin-left: 0.24rem;*/
 }
 .recommend img{
 	float: left;
 }
 .recommend img:nth-child(1){
-	width: 3.64rem;
-	height: 100%；
+	width: 50%;
+	height: 100%;
 }
 .recommend img:nth-child(2){
-	width: 3.38rem;
-	height: 1rem；
+	width: 50%;
+	height: 1rem;
 }
 .recommend img:nth-child(3){
-	width: 3.38rem;
-	height: 1rem；
+	width: 50%;
+	height: 1rem;
 }
 .title-two{
 	padding-top: 0.32rem;
@@ -161,11 +163,14 @@ nav .dot{
 	height: 1.12rem;
 }
 .choose{
-	width: 6.58rem;
+	width: 100%;
 	height: 0.54rem;
-	margin: 0.32rem 0 0 0.42rem;
+	margin-top: 0.32rem;
+    padding-left:0.24rem;
+    padding-right:0.24rem;
 }
 .choose ul{
+
 	font-size: 0.18rem;
 	color: #000;
 	font-weight: 200;
@@ -186,9 +191,9 @@ nav .dot{
 	padding-bottom: 1.3rem;
 }
 .food{
-	width: 7.02rem;
+	width: 92%;
 	height: 1.98rem;
-	margin: 0.32rem 0 0 0.24rem;
+	margin: 0.32rem auto;
 	box-shadow: 0 0.05rem 0.04rem #07c68f;
 	display: flex;
 	justify-content:center;
@@ -299,62 +304,35 @@ footer{
 	justify-content: center;
 }
 footer .container{
-	width: 6.58rem;
+	width:100%;
 	height: 0.88rem;
 	margin-top: 0.1rem;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
-footer .container .home{
-	width: 2rem;
+footer .container a.home{
+	width: 0.4rem;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: start;
 }
-footer .home img{
-	margin-left:-0.04rem;
+footer .home i{
+	font-size: 0.34rem;
+	color:#333;
 }
-footer .container .find{
-	width: 2rem;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: start;
+footer .home p{
+	font-size:0.18rem;
+	color:#333;
 }
-footer .find img{
-	margin-left:-0.04rem;
+footer .home i.ic-one{
+	color:#19ca97;
 }
-footer .container .order{
-	width: 2rem;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: start;
+footer .home i.ic-odr{
+	color:#333;
 }
-footer .order img{
-	margin-left:-0.06rem;
-}
-footer .container .my{
-	width: 0.5rem;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: start;
-}
-footer .my img{
-	margin-left:-0.05rem;
-}
-footer .my .wd{
-	margin-top: 0.18rem;
-	color:#000;
-}
-footer .order .ord{
-	margin-top: 0.2rem;
-	color:#000;
+footer .home i.ic-my{
+	font-weight:300;
+	color:#333;
 }

@@ -55,14 +55,14 @@ header .down h5{
 	color: #fff;
 	float: left;
 	margin-top: 1rem;
-	margin-left: -0.5rem;
+	margin-left: -0.2rem;
 }
 header .down .sj{
 	width: 0.14rem;
 	height: 0.22rem;
 	float: left;
-    margin-top: 0.98rem;
-    margin-left: -1.2rem;
+    margin-top: 1.04rem;
+    margin-left: -1.9rem;
 }
 header .down .back{
 	width: 0.23rem;
@@ -178,81 +178,46 @@ header .down .back{
 
 footer{
 	width: 100%;
-	height: 1.1rem;
+	height: 1.3rem;
 	font-size: 0.18rem;
 	color: #000;
-	box-shadow: 0 -0.06rem 0.06rem #c9f3e7;
 	position: fixed;
 	left: 0;
 	bottom: 0;
 	font-weight: 200;
 	background: #fff;
-	display: flex;
-	justify-content: center;
 }
 footer .container{
-	width: 6.58rem;
+	width:100%;
 	height: 0.88rem;
 	margin-top: 0.1rem;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 footer .container .home{
-	width: 2rem;
-	height: 100%;
+	width: 0.8rem;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 	justify-content: space-between;
-	align-items: start;
 }
-footer .container .find{
-	width: 2rem;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: start;
+footer .home i{
+	font-size: 0.34rem;
+	color:#333;
 }
-footer .container .order{
-	width: 2rem;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: start;
+footer .home p{
+	font-size:0.18rem;
+	padding-top:0.08rem;
+	color:#333;
 }
-footer .container .order img{
-	width: 0.3rem;
-	height: 0.38rem;
-	margin-left: 0.04rem;
+footer .home i.ic-one{
+	color:#333;
 }
-footer .container .home img{
-	width: 0.44rem;
-	height: 0.40rem;
-	margin-left: 0.02rem;
+footer .home i.ic-odr{
+	color:#333;
 }
-footer .container .find img{
-	width: 0.42rem;
-	height: 0.34rem;
-	margin-left: 0.02rem;
-}
-footer .container .my img{
-	width: 0.4rem;
-	height: 0.38rem;
-	margin-left: 0.04rem;
-}
-footer .container .my{
-	width: 0.5rem;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: start;
-}
-footer .home .hom{
-	margin-top: 0.18rem;
-}
-footer .order .ord{
-	margin-top: 0.18rem;
+footer .home i.ic-my{
+	font-weight:300;
+	color:#19ca97;
 }

@@ -5,28 +5,40 @@ $(function () {
     let date=$(".food .jj span");
     let pics=$("footer .ads");
     let pic=$("footer .non");
+    let tot=$(".ads span>i");
     let tp=$(".ttp");
-    console.log(adds, jian,date);
-    let num=parseInt(date[0].innerHTML);
+
+    let sum=date.html();
+    let math=tot.html();
     adds.click(function () {
         jian.css("display","inline-block");
         date.css("display","inline");
-        pics.css("display","block");
         pic.css("display","none");
-        if(num>=100)return;
-        num++;
-        date[0].innerHTML=num;
-        console.log(num);
-    })
+        pics.css("display","block");
+
+        sum++;
+        date.html(sum);
+
+        tot.html(math*sum);
+
+    });
     jian.click(function () {
-        if (num==0) return;
-        num--;
-        date[0].innerHTML=num;
-    })
+        if (sum==1){
+            pic.css("display","block");
+            pics.css("display","none");
+            jian.css("display","none");
+            date.css("display","none");
+            return;
+        }
+
+        sum--;
+        date.html(sum);
+        tot.html(math*sum);
+    });
 
     //点击确认价格
     pics.click(function () {
         tp.css("display","block");
     })
 
-})
+});

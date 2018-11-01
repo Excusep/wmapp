@@ -130,6 +130,8 @@ header .mzf{
 }
 /* 键盘 */
 .keyboard img{
-	width: 7.5rem;
-	height: 4.3rem;
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	left:0;
 }

@@ -23,30 +23,22 @@ header img{
 }
 header h3{
 	font-size: 0.22rem;
-	float: left;
-	margin-top: 0.62rem;
+	padding-top: 0.7rem;
 	color: #fff;
 }
 header h3 img{
 	width: 0.72rem;
 	height: 0.28rem;
-	float: left;
-	margin-top: 0.48rem;
-	margin-left: 1.2rem;
+	margin-top: 0.58rem;
+	margin-left: 1.6rem;
 }
-header h4{
+header h4 {
 	font-size: 0.32rem;
 	color: #fff;
-	margin-top: 1rem;
-	margin-left: -1.1rem;
-	float: left;
 }
 header h5{
 	font-size: 0.22rem;
 	color: #fff;
-	margin-top: 1.46rem;
-	margin-left: -3.45rem;
-	float: left;
 }
 
 
@@ -58,10 +50,12 @@ header .selec{
 	border-top-left-radius: 0.1rem;
 	border-top-right-radius: 0.1rem;
 	border-top: 0.2rem solid #ff6a00;
-	margin-top: -3.44rem;
+	/*margin-top: -3.44rem;*/
 	position: absolute;
-	top: 6.28rem;
-	left: 0.42rem;
+	top: 2.84rem;
+	left: 0;
+	right:0;
+	margin:auto;
 }
 header .selec .three{
 	width: 3.04rem;
@@ -103,7 +97,7 @@ header .selec .jc{
 .other{
 	width: 6.66rem;
 	height: 7rem;
-	margin-left: 0.42rem;
+	margin: 0 auto;
 	box-shadow: 0.01rem 0.02rem 0.04rem #bed6ce;
 	background: #F7F7F7;
 }
@@ -132,8 +126,7 @@ header .selec .jc{
 	width: 0.34rem;
 	height: 0.34rem;
 	float: right;
-	margin-top: -0.1rem;
-	margin-right: 0.14rem;
+	margin-top: -0.15rem;
 }
 .other .one .s{
 	width: 0.11rem;

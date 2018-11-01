@@ -1,12 +1,8 @@
-/*
-* @Author: Administrator
-* @Date:   2018-08-12 22:37:39
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-08-17 09:45:46
-*/
+
 /* 头部 */
 body{
 	position: relative;
+	overflow: hidden;
 }
 header{
 	width: 100%;
@@ -21,13 +17,13 @@ header{
 	z-index: 20;
 }
 header .container{
-	width: 7.02rem;
+	width: 92%;
 	height: 1.8rem;
 	display: flex;
 	justify-content: space-between;
 }
 header .container .left{
-	width: 5.6rem;
+	width: 92%;
 	height: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -43,8 +39,9 @@ header .container .left .one img{
 	height:0.42rem;
 }
 header .container .left .two{
-	width: 4.72rem;
+	width: 90%;
 	height: 1.7rem;
+	margin-left:0.6rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -53,7 +50,7 @@ header .container .left .two img{
 	height: 1.14rem;
 }
 header .container .left .two .text{
-	width: 3.36rem;
+	width: 72%;
 	height: 1.6rem;
 	margin-top: -0.1rem;
 	display: flex;
@@ -74,7 +71,7 @@ header .container .left .two .text .center{
 	font-size: 0.18rem;
 	font-weight: 200;
 	color: #bcebd9;
-	margin-bottom: 0.08rem;
+	margin-bottom: 0.24rem;
 	margin-top: 0.08rem;
 }
 header .container .left .two .text .center img{
@@ -90,22 +87,24 @@ header .container .left .two .text .bot{
 	padding-bottom: 0.06rem;
 }
 header .container .left .two .text .bot .m{
-	margin-bottom: 0.04rem;
+	margin-bottom: 0.08rem;
 }
 header .container .left .two .text .bot a{
 	width: 0.6rem;
 	height: 0.26rem;
-	font-size: 0.18rem;
+	font-size: 0.12rem;
 	border: 0.01rem solid #fff;
-	color: #b0b0b0;
+	color: #bcebd9;
+	text-align: center;
+	line-height: 0.26rem;
 	border-radius: 0.14rem;
-	padding-left: 0.1rem;
-	line-height: 0.24rem;
+	/*padding: 0.04rem;*/
 	display: block;
 	float: left;
 }
 header .container .left .two .text .bot span{
 	float: left;
+	padding-left:0.2rem;
 }
 header .container .right{
 	width: 0.42rem;
@@ -123,13 +122,12 @@ header .container .right img{
 /* 主体 */
 main{
 	width: 100%;
-	height: 9.5rem;
-	margin-bottom: 1.7rem;
-	overflow: scroll;
-	margin-top: 2.3rem;
+	/*height: 15.5rem;*/
+	margin-top: 2.2rem;
+	margin-bottom: 2.5rem;
 }
 main .lef{
-	width: 1.5rem;
+	width:21%;
 	height: 5.10rem;
 	float: left;
 	position: fixed;
@@ -137,7 +135,7 @@ main .lef{
 	top: 2.3rem;
 	background: #e0e0e0;
 }
-main .lef ul li:nth-child(3){
+.green{
 	background: #08c890;
 }
 main .lef ul{
@@ -153,9 +151,16 @@ main .lef ul li{
 	justify-content: center;
 	align-items: center;
 }
+main .allFood{
+	overflow-y:scroll;
+	margin-bottom: 2.6rem;
+}
+.hide{
+	display:none;
+}
 main .food{
-	width: 5.54rem;
-	height: 1.56rem;
+	width: 73%;
+	height:1.53rem;
 	float: right;
 	margin-top: 0.32rem;
 	margin-right: 0.24rem;
@@ -205,8 +210,8 @@ main .food .pic i{
 main .food .pic span{
 	font-size: 0.14rem;
 	position: absolute;
-	top: 0.95rem;
-	right: 0.24rem;
+	top: 0.92rem;
+	right: 0.2rem;
 	color: #ff7200;
 }
 main .food .left{
@@ -222,13 +227,14 @@ main .food .left img{
 	height: 1.24rem;
 }
 main .food .right{
-	width: 3.2rem;
-	height: 1.28rem;
-	margin-top: 0.12rem;
+	width: 68%;
+	height: 100%;
+	/*margin-top: 0.04rem;*/
+	padding:0.1rem 0;
 	float: left;
 	display: flex;
 	flex-direction:column ;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 main .food .right .one{
 	width: 100%;
@@ -243,6 +249,7 @@ main .food .right .one span{
 main .food .right .two{
 	width: 100%;
 	height: 0.18rem;
+	margin-bottom: 0.04rem;
 	display: flex;
 	flex-direction: row;
 }
@@ -259,6 +266,7 @@ main .food .right .two span{
 main .food .right .three{
 	width: 100%;
 	height: 0.18rem;
+	margin-bottom: 0.06rem;
 	display: flex;
 	flex-direction: row;
 }
@@ -270,17 +278,18 @@ main .food .right .four{
 	width: 100%;
 	height: 0.28rem;
 	padding-top: 0.08rem;
+	margin-bottom: 0.04rem;
 	display: flex;
 	flex-direction: row;
 }
 main .food .right .four a{
 	width: 0.6rem;
 	height: 0.26rem;
-	font-size: 0.18rem;
+	font-size: 0.12rem;
 	border: 0.01rem solid #08c890;
 	color: #b0b0b0;
 	border-radius: 0.14rem;
-	padding-left: 0.1rem;
+	text-align: center;
 	line-height: 0.24rem;
 	display: block;
 }
@@ -293,9 +302,6 @@ footer{
 	width: 100%;
 	height: 1.58rem;
 	background: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -311,8 +317,90 @@ footer img{
 footer .non{
 	display: block;
 }
+footer .non{
+	width:100% ;
+	height: 1.27rem;
+	padding-left: 0.8rem;
+	padding-right: 0.24rem;
+	padding-top: 0.2rem;
+	position: relative;
+}
+footer .non span{
+	margin-top:0.18rem;
+	font-size: 0.18rem;
+}
+footer .non span{
+	font-size: 0.18rem;
+	float: left;
+}
+footer .non h2{
+	font-size: 0.18rem;
+	margin-top: -0.7rem;
+	float: left;
+}
+footer .non .sta{
+	color:#fff;
+	width: 3rem;
+	height: 100%;
+	font-size: 0.38rem;
+	line-height: 1.4rem;
+	text-align: center;
+	background: #636363;
+	position: absolute;
+	right: 0.24rem;
+	bottom: 0;
+}
+footer .non img{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	left: 0.24rem;
+	top: -0.24rem;
+}
+
+
 footer .ads{
 	display: none;
+	width:100% ;
+	height: 1.27rem;
+	padding-left: 0.8rem;
+	padding-right: 0.24rem;
+	padding-top: 0.2rem;
+	position: relative;
+}
+footer .ads span i{
+	font-size: 0.38rem;
+
+}
+footer .ads span{
+	font-size: 0.18rem;
+	float: left;
+	color:#FF6A01;
+}
+footer .ads h2{
+	font-size: 0.18rem;
+	margin-top: -0.7rem;
+	color:#FF6A01;
+	float: left;
+}
+footer .ads .sta{
+	color:#fff;
+	width: 3rem;
+	height: 100%;
+	font-size: 0.38rem;
+	line-height: 1.4rem;
+	text-align: center;
+	background: #0BCB93;
+	position: absolute;
+	right: 0.24rem;
+	bottom: 0;
+}
+footer .ads img{
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	left: 0.24rem;
+	top: -0.24rem;
 }
 
 
@@ -323,8 +411,10 @@ footer .ads{
 	background: #1ef8ba;
 	z-index: 100;
 	position: absolute;
-	top: 1rem;
-	left: 0.85rem;
+	top: 1.5rem;
+	left: 0;
+	right:0;
+	margin:auto;
 	border-radius: 0.3rem;
 	box-shadow: 0 0 0 10rem rgba(0,0,0,0.6);
 	display:none;
@@ -337,7 +427,7 @@ footer .ads{
     text-align: center;
     line-height: 0.56rem;
     color:#FC7302;
-    font-weight: 520;
+    font-weight: 500;
     width:2rem;
     height:0.56rem;
     background:#fff;
@@ -368,7 +458,7 @@ footer .ads{
 	width: 1.22rem;
 	height: 0.44rem;
 	position: absolute;
-	margin-left: 1.4rem;
+	margin-left: 3.8rem;
 	margin-top: -0.26rem;
 }
 .ttp h3{
